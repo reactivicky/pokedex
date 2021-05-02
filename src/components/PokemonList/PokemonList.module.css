@@ -1,0 +1,40 @@
+.PokemonList {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 2rem;
+	margin: 2rem auto;
+	width: 1000px;
+	height: 70vh;
+	overflow-y: auto;
+}
+
+.Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #333745;
+	height: 100vh;
+}
+
+@media (max-width: 1200px) {
+	.PokemonList {
+		grid-template-columns: repeat(3, 1fr);
+		width: 800px;
+	}
+}
+
+@media (max-width: 900px) {
+	.PokemonList {
+		grid-template-columns: repeat(3, 1fr);
+		width: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+	.PokemonList {
+		width: 90%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+	}
+}

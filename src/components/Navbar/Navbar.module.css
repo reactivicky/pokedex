@@ -1,0 +1,51 @@
+.Navbar {
+	background: #20222b;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Navbar a {
+	color: #a5afd7;
+	text-decoration: none;
+}
+
+.Navbar input {
+	background: #333745;
+	border: none;
+	color: #a5afd7;
+	flex-grow: 1;
+	padding: 0.5rem;
+}
+
+.Navbar input:focus {
+	outline: none;
+}
+
+.Navbar h1 {
+	font-size: 2rem;
+}
+
+.SelectType label {
+	color: #a5afd7;
+	margin-right: 0.5rem;
+}
+
+.SelectType select {
+	background: #fff;
+	border: #693cad;
+	color: #20222b;
+	font-weight: 500;
+	padding: 0.5rem;
+}
+
+@media (max-width: 800px) {
+	.Navbar {
+		flex-direction: column;
+	}
+
+	.Navbar form {
+		margin-bottom: 1rem;
+	}
+}

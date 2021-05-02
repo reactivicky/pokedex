@@ -1,0 +1,24 @@
+.Pokemon {
+	padding: 3rem 15rem;
+	height: 100vh;
+	background-color: #333745;
+}
+
+@media (max-width: 1600px) {
+	.Pokemon {
+		padding: 3rem 10rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.Pokemon {
+		padding: 3rem 5rem;
+	}
+}
+
+@media (max-width: 771px) {
+	.Pokemon {
+		padding: 3rem 0;
+		height: 100%;
+	}
+}

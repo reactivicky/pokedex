@@ -1,0 +1,22 @@
+.ModalContainer {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.Modal {
+	display: flex;
+	align-items: center;
+	background: #fff;
+	padding: 2rem;
+	flex-direction: column;
+	border-radius: 20px;
+}
+
+.Modal p {
+	margin: 20px 0 0 0;
+}
